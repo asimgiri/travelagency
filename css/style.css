@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Quicksand:700');
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #297CBB;
+}
+
+
+.page-item .page-link{
+  color: #333; 
+}
+
+.page-item.active .page-link{
+  background: #E2252C;
+  border-color: #E2252C;
+}
+
+
+section.breadcrumb {
+  padding: 15px 0 0 0;
+  background: rgba(226, 37, 44, .9);
+  border-radius: 0;
+}
+
+.breadcrumb {
+  background: none;
+}
+
+.breadcrumb a {
+  color: #ddd !important;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .breadcrumb-item {
+  color: #fff !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+  font-weight: 900;
+  font-size: 12px;
+  color: #fff;
+}
+
+.dropdown-toggle::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  font-weight: 900;
+  font-size: 12px;
+  border: none;
+  vertical-align: 0rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.social li {
+  display: inline;
+}
+
+.social ul li a {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.social li a:hover {
+  background-color: #333e48;
+  color: #fff !important;
+}
+
+.facebook {
+  background-color: #3b5999;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.google {
+  background-color: #fe6d4c;
+}
+
+.youtube {
+  background-color: #cc332d;
+}
+
+.cover {
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.text-gray {
+  color: #999 !important;
+}
+
+.lst {
+  list-style-type: none;
+}
+
+.tb_spacing {
+  padding: 100px 0;
+}
+
+.title {
+  font-size: 2rem;
+  letter-spacing: .5px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn-regular {
+  background: #E2252C;
+  color: #fff;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.btn-regular:hover {
+  color: #fff !important;
+}
+
+.btn-black {
+  padding: 10px 40px;
+  letter-spacing: .5px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+hr {
+  width: 15%;
+  height: 1px;
+  background: #E2252C;
+}
+
+hr:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  position: absolute;
+  margin-left: -8px;
+  transform: rotate(45deg);
+  margin-top: -8px;
+  border: 3px solid #E2252C;
+  outline-style: solid;
+  outline-color: #fff;
+  outline-width: thick;
+}
+
+.title_bg {
+  background-color: #333;
+  color: #ddd;
+  padding: 8px 15px;
+  font-size: 20px;
+}
+
+.side {
+  border: 1px solid #eee;
+}
+
+.side li {
+  padding: 2px 0 8px 0;
+}
+
+.side i {
+  font-size: 12px;
+}
+
+.xs-border {
+  width: 15%;
+  height: 2px;
+  background: #f8f9fc;
+}
+
+.xmp {
+  font-size: 12px !important;
+}
+
+.smp {
+  font-size: 14px;
+}
+
+.p-z {
+  padding: 0 !important;
+}
+
+.trans {
+  background: transparent !important;
+}
+
+.bg2 {
+  background-color: #f8f9fc;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* HEADER CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+.navbar {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.top_header .social ul li a {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#myCarousel .carousel-item img {
+  width: 100%;
+  cursor: grab;
+  filter: brightness(.5);
+}
+
+header {
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.carousel-caption {
+  top: 20%;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+  font-family: 'Playball', cursive;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  border: 0;
+  padding: 50px 75px 90px 75px;
+  width: 1000px;
+  left: -146px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, .2);
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu ul li:after {
+  content: '';
+  border-bottom: 1px solid #aaa;
+  width: 0;
+  display: block;
+}
+
+.dropdown-menu ul li:hover::after {
+  width: 50%;
+  transition: .4s ease-out;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* HEADER CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* SEARCH CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* .search_destination .input-group {
+  width: 90%;
+}
+
+.search_destination .container {
+  position: relative;
+  top: -160px;
+  background: rgba(255, 255, 255, .4);
+  padding: 60px 0 0px 0;
+} */
+.search_destination {
+  position: relative;
+  bottom: 240px;
+}
+
+.search_destination .input-group {
+  width: 70%;
+  height: 60px;
+}
+
+.search_destination .input-group i {
+  font-size: 30px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* SEARCH CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* DESTINATION CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+.destination .row .col-md-3 img {
+  position: relative;
+  transition: .4s ease-out;
+  cursor: pointer;
+  filter: brightness(.5);
+}
+
+.destination .row .col-md-3 img:hover {
+  filter: brightness(1);
+}
+
+.destination i {
+  font-size: 20px;
+}
+
+.destination span {
+  position: absolute;
+  bottom: 20px;
+  left: 32px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* DESTINATION CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* TOUR PACKAGES CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+.thumbnail {
+  border: 1px solid rgb(232, 233, 236);
+  border-radius: 0;
+  padding: 0px;
+  cursor: pointer;
+  transition: .2s ease-in;
+  position: relative;
+}
+
+.thumbnail .tag {
+  position: absolute;
+  background: #1C70B8;
+  color: #fff;
+  top: 37%;
+  padding: 6px 16px;
+  left: 0;
+  font-size: 14px;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 15px rgba(24, 24, 24, .15);
+  transform: translateY(-10px);
+}
+
+.thumbnail_content {
+  margin: 15px;
+}
+
+.fa-star {
+  color: #FFC600;
+  font-size: 12px;
+}
+
+.thumbnail_content h4 {
+  font-size: 20px;
+  letter-spacing: .5px;
+  line-height: 25px;
+}
+
+.price {
+  margin-top: 20px;
+}
+
+.price p {
+  font-size: 15px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* TOUR PACKAGES CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* OUTBOUND PACKAGES CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+.outbound_packages .thumbnail:hover {
+  box-shadow: 0 0 15px rgba(24, 24, 24, .15);
+  transform: none;
+}
+
+.owl-prev span {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  color: #fff;
+  font-size: 33px;
+  background: rgba(0, 0, 0, .7);
+  padding: 0 20px;
+}
+
+.owl-next span {
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  color: #fff;
+  font-size: 33px;
+  background: rgba(0, 0, 0, .7);
+  padding: 0 20px;
+}
+
+.tag_img {
+  width: 22px !important;
+  float: left;
+  margin-right: 8px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* OUTBOUND PACKAGES CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* FOCUS PACKAGES CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+.focus {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url('../img/banner.jpg');
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* FOCUS PACKAGES CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ADVENTURE CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+.adventure .col-md-4 .content {
+  overflow: hidden;
+}
+
+.adventure .col-md-4 img {
+  transition: .8s ease-out;
+  cursor: pointer;
+  filter: brightness(.5);
+}
+
+.adventure .col-md-4:hover img {
+  transform: scale(1.2);
+}
+
+.adventure .btn-black {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  visibility: hidden;
+}
+
+.adventure .col-md-4:hover .btn-black {
+  visibility: visible;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ADVENTURE CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* FOOTER CSS STARTS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+footer {
+  position: relative;
+  background: #222;
+}
+
+footer p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #ddd;
+}
+
+.fbg {
+  background: url('../img/footerbg.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  position: absolute;
+  filter: brightness(.2);
+  bottom: 87px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* FOOTER CSS ENDS */
+/* ///////////////////////////////////////////////////////////////////////////*/
+/* ////////////////////////////////////////////////////////////////////////// */
+/* BACKTOTOP CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.totop {
+  position: fixed;
+  top: 18%;
+  left: 45%;
+  cursor: pointer;
+  display: none;
+  background: #fff;
+  color: #E5842B;
+  border-radius: 25px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 12px;
+  z-index: 999;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.totop i {
+  font-size: 16px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* BACKTOTOP CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* HAMBURGER CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #aaa;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* HAMBURGER CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCORDION CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+#accordion9 .panel {
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+#accordion9 .panel-heading {
+  padding: 0;
+}
+
+#accordion9 .panel-title {
+  position: relative;
+}
+
+#accordion9 .panel-title:before {
+  content: "";
+  border-bottom: 25px solid rgba(0, 0, 0, 0);
+  border-left: 15px solid #ccc;
+  border-top: 23px solid rgba(0, 0, 0, 0);
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 34px;
+}
+
+#accordion9 .panel-title a {
+  border: 1px solid #aaa;
+  background: #eee;
+  display: block;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 13px 10px 13px 65px;
+}
+
+#accordion9 .panel-title a.collapsed {
+  color: #333;
+  background: #eee;
+}
+
+#accordion9 .panel-title a:before,
+#accordion9 .panel-title a.collapsed:before {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 14px 10px;
+  color: #E2252C;
+  background: #ccc;
+  text-align: justify;
+}
+
+#accordion9 .panel-title a.collapsed:before {
+  content: "\f067";
+}
+
+#accordion9 .panel-body {
+  line-height: 26px;
+  text-align: justify;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCORDION CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ALL PACKAGES CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ALL PACKAGES CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */

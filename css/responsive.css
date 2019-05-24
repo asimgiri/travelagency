@@ -1,0 +1,82 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .navbar-light .navbar-nav .nav-link{
+    padding: 10px 20px;
+  }
+
+  .top_header{
+    display: none;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    border: 0;
+    width: 100%;
+    left: 0;
+    padding: 10px 10px 10px 20px;
+    background: #fcfcfc;
+    border: 1px solid #eee;
+}
+
+  .destination span{
+    bottom: 5px;
+    left: 18px;
+    font-size: 12px;
+  }
+
+  .adventure .col-md-4{
+    width: 50%;
+  }
+
+  .destination{
+    padding-top: 30px;
+  }
+
+  .search_destination {
+    bottom: -20px;
+  }
+
+  .search_destination .input-group{
+    width: 100%;
+    height: auto;
+  }
+
+  .search_destination .input-group img{
+    width: 15px !important;
+  }
+
+
+  .search_destination .col-md-3 {
+    width: 50%;
+  }
+
+  .destination .col-md-3 {
+    width: 50%;
+  }
+
+  footer .main .row .col-md-2 {
+    width: 50%;
+  }
+
+  .search_destination .container {
+    position: initial;
+  }
+
+  .carousel-caption .btn-black {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .carousel-caption {
+    bottom: -8%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+}
